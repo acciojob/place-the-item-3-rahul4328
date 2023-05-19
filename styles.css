@@ -1,24 +1,2 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.holder {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    gap: 10px;
-}
-
-.item {
-    background-color: #ccc;
-    padding: 20px;
-    flex: 0 0 calc(20% - 10px);
-}
 
 
