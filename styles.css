@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 10px;
+}
