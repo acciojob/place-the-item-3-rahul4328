@@ -12,10 +12,10 @@ body {
 .holder {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .item {
+    flex-basis: calc(20% - 20px);
     background-color: #ccc;
     padding: 20px;
     margin: 10px;
